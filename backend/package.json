@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "author": "Dennis Quilatan",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.11.14"
+    "mongoose": "^5.11.14",
+    "nodemon": "^2.0.7"
   }
 }
