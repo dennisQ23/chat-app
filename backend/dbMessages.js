@@ -7,4 +7,4 @@ const chatappSchema = mongoose.Schema({
   received: Boolean,
 });
 
-export default mongoose.model('messageContent', chatappSchema);
+export default mongoose.model('messagecontents', chatappSchema);
